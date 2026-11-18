@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="70" viewBox="0 0 600 70">
+  <defs>
+    <!-- Cut-outs (negative space) so embroidered details read through the gold -->
+    <mask id="cut" maskUnits="userSpaceOnUse" x="-20" y="-20" width="140" height="110">
+      <rect x="-20" y="-20" width="140" height="110" fill="#fff"/>
+      <!-- pole gaps either side of the body -->
+      <rect x="46.6" y="20" width="1.8" height="26" fill="#000"/>
+      <rect x="51.6" y="20" width="1.8" height="26" fill="#000"/>
+      <!-- twisted pole stripes -->
+      <g stroke="#000" stroke-width="0.7" fill="none">
+        <path d="M48.4 8 L51.6 6.4 M48.4 12 L51.6 10.4 M48.4 16 L51.6 14.4 M48.4 20 L51.6 18.4"/>
+        <path d="M48.4 50 L51.6 48.4 M48.4 54 L51.6 52.4 M48.4 58 L51.6 56.4 M48.4 62 L51.6 60.4 M48.4 66 L51.6 64.4 M48.4 70 L51.6 68.4 M48.4 74 L51.6 72.4"/>
+      </g>
+      <!-- finial ring -->
+      <circle cx="50" cy="4" r="1.7" fill="none" stroke="#000" stroke-width="0.7"/>
+      <!-- saddle blanket panel (dark, embroidered in gold on top) -->
+      <path d="M41 27 Q53 22 64 27 L63 39 Q52 43 42 39 Z" fill="#000"/>
+      <!-- eye + bridle + cheek strap -->
+      <circle cx="19" cy="19" r="1.4" fill="#000"/>
+      <path d="M12 23 L24 15 M24 15 L28 21" stroke="#000" stroke-width="1.1" fill="none"/>
+      <!-- browband jewel -->
+      <circle cx="27" cy="11.5" r="1.9" fill="none" stroke="#000" stroke-width="0.8"/>
+      <!-- chest jewel -->
+      <circle cx="35.5" cy="35" r="2" fill="none" stroke="#000" stroke-width="0.8"/>
+      <path d="M33 30 Q38 26 41 30" stroke="#000" stroke-width="1" fill="none"/>
+      <!-- mane curls -->
+      <circle cx="38" cy="10" r="1.6" fill="none" stroke="#000" stroke-width="0.7"/>
+      <circle cx="41" cy="16" r="1.6" fill="none" stroke="#000" stroke-width="0.7"/>
+      <circle cx="43" cy="22" r="1.6" fill="none" stroke="#000" stroke-width="0.7"/>
+      <!-- rump jewel -->
+      <circle cx="68" cy="33" r="2.1" fill="none" stroke="#000" stroke-width="0.8"/>
+      <!-- belly stitching -->
+      <path d="M38 42 C46 45 62 45 69 41" stroke="#000" stroke-width="0.7" stroke-dasharray="1.2 1.2" fill="none"/>
+      <!-- tail strands -->
+      <path d="M76 32 C81 36 82 44 80 50 M73 35 C77 38 78 43 77 47" stroke="#000" stroke-width="0.8" fill="none"/>
+      <!-- leg bands -->
+      <path d="M39.5 56.2 L44.5 55.8 M55.8 56.3 L60.6 56.8 M75 55.6 L79 53.4 M27 47 L28.5 42.5" stroke="#000" stroke-width="1" fill="none"/>
+    </mask>
+
+    <!-- One embroidered toy carousel horse, facing left, pole at x=50 -->
+    <g id="horse">
+      <g mask="url(#cut)" fill="#a99036" stroke="none">
+        <!-- pole -->
+        <rect x="48.5" y="4" width="3" height="76"/>
+        <!-- finial ball -->
+        <circle cx="50" cy="4" r="3.3"/>
+        <!-- body + rump -->
+        <path d="M34 30 C38 24 50 23 62 25 C72 26 76 32 72 40 C66 44 44 45 36 41 Z"/>
+        <!-- saddle pommel + cantle -->
+        <path d="M44 27 Q46 21.5 50 24 Q54 21.5 61 27 Z"/>
+        <!-- neck -->
+        <path d="M32 38 L24 22 L26 9 L35 7 L42 26 L40 34 Z"/>
+        <!-- head -->
+        <path d="M24 9 L30 5 L33 9 L24 20 L14 26 L8 27 L7 22 L12 18 Z"/>
+        <!-- ear -->
+        <path d="M29 6 L31 -1 L35 7 Z"/>
+        <!-- mane -->
+        <circle cx="38" cy="10" r="3"/><circle cx="41" cy="16" r="3"/><circle cx="43" cy="22" r="3"/>
+        <!-- tail -->
+        <path d="M72 29 C82 27 88 36 84 52 C82 44 78 40 72 40 Z"/>
+        <g fill="none" stroke="#a99036" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M38 40 L31 47 L24 44"/>
+          <path d="M42 41 L44 51 L42 60"/>
+          <path d="M66 40 L74 49 L79 58"/>
+          <path d="M60 42 L60 52 L57 60"/>
+        </g>
+      </g>
+
+      <!-- gold embroidery drawn on top of the cut-outs -->
+      <g fill="#a99036" stroke="#a99036">
+        <!-- pole rings -->
+        <rect x="47.3" y="13" width="5.4" height="1.6" stroke="none"/>
+        <rect x="47.3" y="52" width="5.4" height="1.6" stroke="none"/>
+        <!-- finial dot -->
+        <circle cx="50" cy="4" r="0.7" stroke="none"/>
+        <!-- blanket border + stitching -->
+        <path d="M43.5 28.5 Q53 24.5 62 28.5 L61 37 Q52 40.5 44.5 37 Z" fill="none" stroke-width="0.8"/>
+        <path d="M45.5 30 Q53 27.2 60 30 L59.2 35.6 Q52 38 46.3 35.6 Z" fill="none" stroke-width="0.5" stroke-dasharray="1 1"/>
+        <!-- rosette -->
+        <g stroke="none">
+          <circle cx="52.5" cy="33" r="1.3"/><circle cx="52.5" cy="30.6" r="1.1"/><circle cx="52.5" cy="35.4" r="1.1"/>
+          <circle cx="50.1" cy="33" r="1.1"/><circle cx="54.9" cy="33" r="1.1"/>
+        </g>
+        <circle cx="52.5" cy="33" r="0.7" fill="#2a4838" stroke="none"/>
+        <!-- jewels in the ring cut-outs -->
+        <g stroke="none">
+          <circle cx="27" cy="11.5" r="0.8"/>
+          <circle cx="35.5" cy="35" r="0.8"/>
+          <circle cx="68" cy="33" r="0.9"/>
+          <circle cx="38" cy="10" r="0.6"/><circle cx="41" cy="16" r="0.6"/><circle cx="43" cy="22" r="0.6"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- A tile = 600px wide with 4 horses (each bobbing up/down like a carousel) -->
+    <g id="tile">
+      <g transform="translate(0,5)">
+        <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="2s" begin="0s" repeatCount="indefinite"/><use xlink:href="#horse" href="#horse"/></g>
+      </g>
+      <g transform="translate(150,5)">
+        <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="2s" begin="-0.5s" repeatCount="indefinite"/><use xlink:href="#horse" href="#horse"/></g>
+      </g>
+      <g transform="translate(300,5)">
+        <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="2s" begin="-1s" repeatCount="indefinite"/><use xlink:href="#horse" href="#horse"/></g>
+      </g>
+      <g transform="translate(450,5)">
+        <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="2s" begin="-1.5s" repeatCount="indefinite"/><use xlink:href="#horse" href="#horse"/></g>
+      </g>
+    </g>
+  </defs>
+
+  <!-- Fixed background -->
+  <rect width="600" height="70" fill="#2a4838"/>
+
+  <!-- Scrolls left by exactly one tile, then repeats seamlessly -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="12s" repeatCount="indefinite"/>
+    <use xlink:href="#tile" href="#tile" x="0"/>
+    <use xlink:href="#tile" href="#tile" x="600"/>
+  </g>
+
+  <!-- Thin gold border -->
+  <rect x="0.5" y="0.5" width="599" height="69" fill="none" stroke="#a99036" stroke-width="1"/>
+</svg>
